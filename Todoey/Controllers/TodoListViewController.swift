@@ -52,7 +52,8 @@ class TodoListViewController: UITableViewController {
         
         cell.textLabel?.text = item.title
         
-        //Ternanry Opertator ==>
+        
+        //*Ternanry Opertator ==>
         //Value = condition ? valueIfTrue : valueIfFalse
         cell.accessoryType = item.done  ? .checkmark :  .none
         
@@ -62,6 +63,7 @@ class TodoListViewController: UITableViewController {
 //        } else {
 //            cell.accessoryType = .none
 //        }
+        //*
         
         return cell
         
