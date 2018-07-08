@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 // gets called when load opens up even before view did load
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true) .last! as String)
+        
         
         return true
     }
